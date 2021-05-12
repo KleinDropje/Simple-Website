@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #80c075;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.app {
+
+}
+.navbar {
+    height: 100px;
+}
+.Logo {
+    width: 80px;
+    height: 80px;
+    transform: translate(100px, 20px);
+}
+
+.Logo .src {
+    width: 80px;
+    height: 80px;
+}
+.LogoName {
+    transform: translate(90px, -90px);
+    font-size: 24px;
+    color: white;
+    font-weight: 500;
+}
+ul {
+    margin-top: -50px;
+    margin-right: 500px;
+    float: right;
+}
+li {
+    display: inline-flex;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 16px;
+    font-size: 20px;
+    width: 150px;
+}
+
+li a:not(.NewAccount):hover {
+    text-decoration: underline;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.account {
+    float: right;
+    margin-right: -400px;
+}
+
+.NewAccount {
+    border: 2px solid #fee689;
+    background-color: #fee689;
+    border-radius: 36px;
+    width: 175px;
+    display:table-cell;
+    color: #b68fdc;
+    text-decoration: none;
+}
+.Hero {
+    height: 807px;
+}
+.Hero-Inner {
+    height: 807px;
+}
+.HeroTitle {
+    color: white;
+    margin-left: 240px;
+    margin-top: 120px;
+    font-size: 36px;
+    width: 440px;
+}
+.HeroDesc {
+    color: white;
+    font-size: 20px;
+    margin-left: 240px;
+    width: 500px;
+}
+.BtnCont {
+    margin-left: 240px;
+    margin-top: 50px;
+    text-decoration: none;
+}
+.HeroBtn {
+    border: 2px solid #fee689;
+    background-color: #fee689;
+    border-radius: 36px;
+    width: 175px;
+    font-size: 20px;
+    display: table-cell;
+    text-align: center;
+    color: #b68fdc;
+    padding: 20px 16px;
+}
+
+.footer {
+    position: relative;
+    bottom: 190px;
+    float: right;
+    display: inline-flex;
+    width: 500px;
+    right: 200px;
+
+    
+}
+
+.footerlogo {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footertext p {
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    width: 150px;
+    word-spacing: 2px;
+}
+
+.footericon1 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footericon2 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
